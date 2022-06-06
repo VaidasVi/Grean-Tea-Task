@@ -1,0 +1,47 @@
+header {
+  background: url("/assets/bg.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner {
+  background: rgba(0, 0, 0, 0.13);
+}
+
+.banner p {
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  padding: 7px 0 7px 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul {
+  padding-bottom: 15px;
+}
+
+nav li {
+  list-style: none;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+}
