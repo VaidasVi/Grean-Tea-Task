@@ -45,3 +45,75 @@ nav li {
   padding: 1rem 0;
   letter-spacing: 1px;
 }
+
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid #efefef;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+/* Section one */
+
+.section-one div {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  background-color: #9eb23b;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.section-one img {
+  width: 100%;
+}
+
+.section-one div p:first-child {
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.section-one div p:last-child {
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
+  margin: 0;
+  line-height: 2;
+}
+
+/* Section Two */
+
+.section-two {
+  text-align: center;
+}
+
+.section-two img {
+  width: 50%;
+}
+
+.section-two p {
+  color: #7f8487;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.section-two p:first-child {
+  font-family: "Amaranth", sans-serif;
+  color: #7f8487;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+/* Section Three */
