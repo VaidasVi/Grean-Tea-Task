@@ -27,7 +27,15 @@
       <div class="banner">
         <p>Livraison offerte a partir de 65&euro; d`achat !</p>
       </div>
-      <a class="logo"><img src="/assets/logo.png" alt="logo" /></a>
+      <div class="logo">
+        <div>
+          <a><img src="/assets/logo.png" alt="logo" /></a>
+        </div>
+        <div class="cart">
+          <p>Mon panier <br />42.00&euro;</p>
+          <i class="fa fa-shopping-cart fa-4x" aria-hidden="true"></i>
+        </div>
+      </div>
       <nav>
         <ul>
           <li><a href="#">thes</a></li>
@@ -48,17 +56,31 @@
           <img src="/assets/the.jpg" alt="tea cup" />
         </section>
         <section class="section-two">
-          <p>Choisissez votre the</p>
-          <img src="/assets/tea/1.jpg" alt="noir" />
-          <p>the noir</p>
-          <img src="/assets/tea/2.jpg" alt="verte" />
-          <p>the verte</p>
-          <img src="/assets/tea/3.jpg" alt="oolong" />
-          <p>oolong</p>
-          <img src="/assets/tea/4.jpg" alt="blanc" />
-          <p>the blanc</p>
-          <img src="/assets/tea/5.jpg" alt="rooibos" />
-          <p>rooibos</p>
+          <div>
+            <p>Choisissez votre the</p>
+          </div>
+          <div id="list-of-teas">
+            <div>
+              <img src="/assets/tea/1.jpg" alt="noir" />
+              <p>the noir</p>
+            </div>
+            <div>
+              <img src="/assets/tea/2.jpg" alt="verte" />
+              <p>the verte</p>
+            </div>
+            <div>
+              <img src="/assets/tea/3.jpg" alt="oolong" />
+              <p>oolong</p>
+            </div>
+            <div>
+              <img src="/assets/tea/4.jpg" alt="blanc" />
+              <p>the blanc</p>
+            </div>
+            <div>
+              <img src="/assets/tea/5.jpg" alt="rooibos" />
+              <p>rooibos</p>
+            </div>
+          </div>
         </section>
       </article>
       <article class="article-two">
@@ -67,7 +89,7 @@
             <img src="/assets/title.png" alt="title" />
             <p>Nos nouveautes</p>
           </div>
-          <img src="/assets/product1.jpg" alt="the du hammam" />
+          <img src="/assets/product1.jpg" id="leaf-img" alt="the du hammam" />
           <h2>The du hammam</h2>
           <p>The vert parfume</p>
         </section>
@@ -76,7 +98,11 @@
             <img src="/assets/title.png" alt="title" />
             <p>Nos best-sellers</p>
           </div>
-          <img src="/assets/product2.jpg" alt="infusion herboriste" />
+          <img
+            src="/assets/product2.jpg"
+            id="leaf-img"
+            alt="infusion herboriste"
+          />
           <h2>Infusion Herboriste</h2>
           <p>Infusion verveine menthe</p>
         </section>
@@ -85,7 +111,7 @@
             <img src="/assets/title.png" alt="title" />
             <p>Notre coup de coeur</p>
           </div>
-          <img src="/assets/product3.jpg" alt="blue of london" />
+          <img src="/assets/product3.jpg" id="leaf-img" alt="blue of london" />
           <h2>Blue of London</h2>
           <p>The noir a la bergamote</p>
         </section>
